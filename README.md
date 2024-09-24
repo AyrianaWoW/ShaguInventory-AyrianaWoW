@@ -1,6 +1,7 @@
 # AyrianaWoW Changes
 
 This is a fork to provide alternate/enhanced color changes to the ShaguInventory tooltip.  Preview screenshot is below.
+
 If you're like to download Shagu's version and modify it manually you can find details on how to do so [linked here](https://github.com/shagu/ShaguInventory/issues/3).
 
 # ShaguInventory
