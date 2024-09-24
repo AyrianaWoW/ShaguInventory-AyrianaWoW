@@ -100,12 +100,12 @@ InventoryCounterFrameToolTip:SetScript("OnShow", function (self)
                 initLineAdded = true
               end
               totalCount = totalCount + count
-              GameTooltip:AddDoubleLine(char .. " |cff556677[" .. slot .. "]", count, 0.65, 0.75, 0.85, 0.65, 0.75, 0.85)
+              GameTooltip:AddDoubleLine("|cffffbd00" .. char .. " |cffb75bff[" .. slot .. "]", count, 1, 1, 1, 1, 1, 1) -- Character name in gold, bag/bank indicator in purple, items in white
             end
           end
         end
         if (totalCount>0) then
-          GameTooltip:AddDoubleLine("Total:", totalCount, 0, 0.8, 1, 0, 0.8, 1)
+          GameTooltip:AddDoubleLine("Total:", totalCount, 0, 1, 1, 0, 1, 1) -- Total text and number in cyan blue
         end
       end
     end
