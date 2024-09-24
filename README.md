@@ -1,3 +1,7 @@
+# AyrianaWoW Changes
+
+This is a temporary fork to provide alternate/enhanced color changes to the ShaguInventory tooltip.  Preview screenshot is below.
+
 # ShaguInventory
 
 Started as a fork of an abandoned project called "InventoryCounter". It shows the quantity of items in your inventory over all charactes on the same account. The XML File was removed and completely replaced by Lua Code. But basically there are only optical changes done like dual pane tooltip infos. Sadly the original code can't be accessed anymore as the forum where it has been hosted changed to another software.
